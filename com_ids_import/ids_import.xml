@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="component" version="1.5.0" method="upgrade">
+    <name>ids_import</name>
+    <author>@iLabAfrica</author>
+    <creationDate>27/05/2013</creationDate>
+    <license>GNU/GPL</license>
+    <version>1.0</version>
+    <description>IDS Import component for Joomla enables Joomla website admins to import content made available by the IDS KS Open API. This content includes tens of thousands of thematically organised research documents that are freely available online.You will need to specify a valid API Key or Token-GUID. If you don't have one, you can register for one at http://api.ids.ac.uk/accounts/register/</description>
+
+    <!-- installation part -->
+    <install>
+        <queries>
+           
+        </queries>
+    </install>
+
+    <installfile>install.ids_import.php</installfile>
+    <uninstallfile>uninstall.ids_import.php</uninstallfile>
+
+    <!-- user part -->
+    <files folder="components/com_ids_import">
+        <filename>controller.php</filename>
+        <filename>index.html</filename>
+        <filename>router.php</filename>
+        <filename>ids_import.php</filename>
+        <folder>models</folder>
+        <folder>views</folder>
+    </files>
+
+    <languages folder="language/en-GB">
+        <language tag="en-GB">en-GB.com_ids_import.ini</language>
+    </languages>
+
+    <!-- administration part -->
+    <administration>
+
+    <menu task="default" img="js/ThemeOffice/component.png">IDS Import</menu>
+    <!-- <submenu>
+        <menu link="option=com_ids_import">ids_import</menu>
+    </submenu> -->
+
+    <files>
+        <filename>ids_import.xml</filename>
+    </files>
+    <files folder="administrator/components/com_ids_import">
+        <filename>config.xml</filename>
+        <filename>controller.php</filename>
+        <filename>index.html</filename>
+        <filename>install.ids_import.php</filename>
+        <filename>ids_import.php</filename>
+        <filename>uninstall.ids_import.php</filename>
+        <folder>assets</folder>
+        <folder>helpers</folder>
+        <folder>models</folder>
+        <folder>tables</folder>
+        <folder>views</folder>
+    </files>
+
+    <languages folder="administrator/language/en-GB">
+        <language tag="en-GB">en-GB.com_ids_import.menu.ini</language>
+        <language tag="en-GB">en-GB.com_ids_import.ini</language>
+    </languages>
+
+    </administration>
+
+    <params>
+
+    </params>
+
+</install>

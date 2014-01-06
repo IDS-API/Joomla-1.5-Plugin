@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="ids_import Default Layout">
+		<message>
+			<![CDATA[IDS_IMPORT DEFAULT LAYOUT DESCRIPTION]]>
+		</message>
+	</layout>
+	<state>
+		<name>ids_import Default Layout</name>
+		<description>Ids_import DEFAULT LAYOUT DESCRIPTION</description>
+        <url>
+
+        </url>
+		<params>
+
+		</params>
+		<advanced>
+
+		</advanced>
+	</state>
+</metadata>
